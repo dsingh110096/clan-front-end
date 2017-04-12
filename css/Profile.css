@@ -259,10 +259,12 @@ span.clear {
 
 }
 .post-text{
+	max-width: 100%;
 	width: 100%;
 	height: auto;
 	background-color: #bcadb7;
 	padding: 5px 10px 10px;
+	overflow-x: hidden;
 }
 .post-text h3{
 	padding: 10px;
