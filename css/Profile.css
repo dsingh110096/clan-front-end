@@ -9,11 +9,94 @@ body{
 	background-color: #92b3e8;
 }
 
+
+ /* Popover */
+  .popover {
+      padding: 2px;
+  }
+  /* Popover Header */
+  .popover-title {
+      background-color: #73AD21; 
+      color: #FFFFFF; 
+      font-size: 28px;
+      text-align:center;
+  }
+  /* Popover Body */
+  .popover-content {
+      background-color: coral;
+      color: #FFFFFF;
+      padding: 25px;
+  }
+  /* Popover Arrow */
+  .arrow {
+      border-right-color: red !important;
+  }
 .navbar{
 	border:0;
 	border-radius: 0;
 
 }
+.top-zero{
+	margin-top: -20px;
+}
+.cover-container{
+	width: 100%;
+	height: auto;
+	background-color:#676c75;
+
+}
+
+#profile-image{
+	max-width: 100%;
+	width: 70%;
+	height: 160px;
+	background-color: gray;
+	position: absolute;
+	margin: 0 auto;
+	margin-top: -190px;
+	margin-left: 50px;
+	
+	
+
+}
+#profile-container-image{
+	height: 160px;
+	width: 100%;
+	border: 4px solid #fff;
+}
+
+
+.cover-container img{
+	 
+    width: 100%;
+    height: 415px;
+    transition: 2s all;
+}
+.cover-container img:hover{
+	opacity: 0.5;
+}
+.cover-container ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	
+
+}
+
+.cover-container ul li{
+	display: inline-block;
+	padding: 15px;
+	font-size: 15px;
+	color: #fff;
+}
+
+
+.overlap{
+	position: relative;
+	top: -170px;
+}
+
 .profile-container{
 	max-width: 100%;
 	width: 100%;
@@ -26,54 +109,6 @@ body{
 
 }
 
-.image-container{
-	max-width: 100%;
-	width: 38%;
-	background-color: #fff;
-	height: 110px;
-	margin: 0 auto;
-	position: relative;
-	
-	
-
-}
-
-#profile-image{
-	position: absolute;
-	max-width: 100%;
-	width: 90%;
-	height: 100px;
-	margin: 0 auto;
-	top:5px;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	
-	
-}
-
-.name-email{
-
-	width: 100%;
-	height: auto;
-	background-color: transparent;
-	color:#fff;
-	margin-top: -5px;
-	padding-bottom: 10px;
-		position: relative;
-}
-
-#profile-name{
-	text-align: center;
-	padding-top: 5px ;
-	
-}
-#profile-email{
-	text-align: center;
-
-	
-
-}
 .intro-container{
 	width: 100%;
 	height: auto;
@@ -150,6 +185,28 @@ span.clear {
 	
 
 }
+.post-content-container{
+	width: 100%;
+	height: auto;
+	background-color: #676c75;
+	padding: 10px;
+	margin-top: 15px;
+}
+.post-content-container ul li a{
+	color:#fff;
+}
+.status-text{
+	padding: 15px;
+}
+#post-status{
+	width: 100%;
+	height: 70px;
+	font-size: 25px;
+}
+
+#post-status::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 25px;
+}
 .post-container{
 	max-width: 100%;
 	width: 100%;
@@ -159,6 +216,16 @@ span.clear {
 	padding: 10px;
 	
 
+}
+#upload-photo h3{
+	margin:0 auto;
+	padding: 15px;
+	color: #fff;
+	cursor: pointer;
+}
+#upload-photo h3:hover{
+	background-color: #fff;
+	color:#111;
 }
 .post{
 	max-width: 100%;
@@ -190,6 +257,17 @@ span.clear {
 	background-color: #bcadb7;
 	padding: 5px 10px 10px;
 
+}
+.post-text{
+	width: 100%;
+	height: auto;
+	background-color: #bcadb7;
+	padding: 5px 10px 10px;
+}
+.post-text h3{
+	padding: 10px;
+	padding-bottom: 0;
+	margin-top: -10px;
 }
 
 .post-photo img{
@@ -223,12 +301,13 @@ span.clear {
 	font-weight: 600;
 }
 .side-container{
-	max-width: 100%;
-	width: 100%;
+	
+	width: 90%;
 	background-color: #676c75;
 	height: auto;
-	margin: 15px auto;
+	margin: 0 auto;
 	padding: 10px;
+	
 	
 
 }
@@ -347,3 +426,29 @@ span.clear {
 	background-color: #fff;
 	color:#111;
 }
+
+@media only screen and (max-width: 968px) {
+
+		.side-container{
+	
+				margin: 15px auto;
+			
+		}
+
+
+		.profile-container{
+				
+				margin-top: 170px;
+			}
+
+			
+#profile-image{
+	
+	visibility: hidden;
+
+
+}
+
+
+
+	}

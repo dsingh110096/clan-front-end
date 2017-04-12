@@ -15,6 +15,8 @@
 	<title>Profile|Page</title>
 </head>
 <body>
+
+
 	<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -69,19 +71,58 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-
-
-	<div class="container-fluid">
+<div class="container-fluid top-zero">
 		<div class="row">
+			<div class="col-sm-9">
+				<div class="cover-container">
+					<img src="images/3.jpg" class="img-responsive">
+					<ul>
+						<li>Timeline</li>
+						<li>About</li>
+						<li>Photos</li>
+						<li>More</li>
+					</ul>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-3">
+							<div id="profile-image">
+						<img src="images/7.jpg" id="profile-container-image">
+					</div>
+						</div>
+					</div>
+				</div>	
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="side-container">
+					<div class="clan-group">
+						<h3 id="group-heading">Clan Groups</h3>
+						<ul>
+							<li>Group 1</li>
+							<li>Group 2</li>
+							<li>Group 3</li>
+							<li>Group 4</li>
+							<li>Group 5</li>
+						</ul>
+					</div>
+					<div class="link-to-features">
+						<div class="feature-circle" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="This let you go in Clan class room.">
+							<h5>Clan Class-Room</h5>
+						</div>
+						<div class="feature-circle" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="This let you go in Clan connect.">
+							<h5>Clan Connect</h5>
+						</div>
+						<div class="feature-circle" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="This let you go in Faculty's room.">
+							<h5>Faculty's Room</h5>
+						</div>
+						
+					</div>
+				</div>		
+			</div>
+		</div>
+		<div class="row overlap">
 			<div class="col-sm-3">
 				<div class="profile-container">
-					<div class="image-container">
-						<img src="images/7.jpg" id="profile-image">
-					</div>
-					<div class="name-email">
-						<h4 id="profile-name">Dheerendra Singh </h4>
-						<h5 id="profile-email">dsingh110096@gmail.com</h5>
-					</div>
 					<div class="intro-container">
 						<p id="intro">Intro</p><br/>
 						<p class="margin intro1">There are two types of pains,one that hurts you and the other that change you</p>
@@ -116,7 +157,94 @@
 				</div>
 			</div>
 			<div class="col-sm-6">
+				<div class="post-content-container">
+					<div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Status</a></li>
+    <li role="presentation"><a href="#upload-photo" aria-controls="profile" role="tab" data-toggle="tab">Photo</a></li>
+    
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+    	<div class="status-text">
+    		<form>
+			  <div class="form-group">
+			    <input type="email" class="form-control" id="post-status" placeholder="What's On Your Mind?">
+			  </div>
+			  
+			  <button type="submit" class="btn btn-default">Post</button>
+			</form>
+    	</div>
+    	
+    </div>
+    <div role="tabpanel" class="tab-pane" id="upload-photo">
+    	<h3>Upload Photos</h3>
+    </div>
+    
+  </div>
+
+</div>
+					
+				</div>
 				<div class="post-container">
+					<div class="post">
+						<div class="post-info">
+							<img src="images/7.jpg">
+							<h4><a href="#">Dheerendra Singh</a></h4>
+						</div>
+						<div class="post-text">
+							<h3> "Take up one idea. Make that one idea your life--think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success." --Swami Vivekananda</h3>
+						</div>
+						<div class="like-comment-share">
+							<ul>
+								<li><span class="glyphicon glyphicon-thumbs-up"></span>Like</li>
+								<li><span class="glyphicon glyphicon-comment"></span>Comment</li>
+								<li><span class="glyphicon glyphicon-share"></span>Share</li>
+							</ul>
+						</div>	
+					</div>
+					<div class="post">
+						<div class="post-info">
+							<img src="images/7.jpg">
+							<h4><a href="#">Dheerendra Singh</a></h4>
+						</div>
+						<div class="post-text">
+							<h3> 
+								I note the obvious differences
+								in the human family.
+								Some of us are serious,
+								some thrive on comedy.
+
+								Some declare their lives are lived
+								as true profundity,
+								and others claim they really live
+								the real reality.
+
+								The variety of our skin tones
+								can confuse, bemuse, delight,
+								brown and pink and beige and purple,
+								tan and blue and white.
+
+								I've sailed upon the seven seas
+								and stopped in every land,
+								I've seen the wonders of the world
+								not yet one common man.
+
+								Source: http://www.familyfriendpoems.com/poem/human-family-by-maya-angelou	
+							</h3>
+						</div>
+						<div class="like-comment-share">
+							<ul>
+								<li><span class="glyphicon glyphicon-thumbs-up"></span>Like</li>
+								<li><span class="glyphicon glyphicon-comment"></span>Comment</li>
+								<li><span class="glyphicon glyphicon-share"></span>Share</li>
+							</ul>
+						</div>	
+					</div>
 					<div class="post">
 						<div class="post-info">
 							<img src="images/7.jpg">
@@ -215,33 +343,12 @@
 					</div>					
 				</div>
 			</div>
-			<div class="col-sm-3">
-				<div class="side-container">
-					<div class="clan-group">
-						<h3 id="group-heading">Clan Groups</h3>
-						<ul>
-							<li>Group 1</li>
-							<li>Group 2</li>
-							<li>Group 3</li>
-							<li>Group 4</li>
-							<li>Group 5</li>
-						</ul>
-					</div>
-					<div class="link-to-features">
-						<div class="feature-circle">
-							<h5>Clan Class-Room</h5>
-						</div>
-						<div class="feature-circle">
-							<h5>Clan Connect</h5>
-						</div>
-						<div class="feature-circle">
-							<h5>Faculty's Room</h5>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
+		
+		
+	
+
 		<div class="container-fluid footer-margin">
 			<div class="row">
 				<div class="col-sm-12">
