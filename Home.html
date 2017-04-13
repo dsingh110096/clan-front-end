@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/profile.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<title>Home|Page</title>
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Campus Clan</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" id="search-bar" placeholder="Search...">
+            </div>
+            <a href="#"><span class="glyphicon search-icon glyphicon-search"></span></a>
+              <!-- <button type="submit" class="btn btn-default">Submit</button> -->
+            </form>
+
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>Home<span class="sr-only">(current)</span></a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-user"></span>Dheerendra</a></li>
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-bell"></span>Notifications</span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+              </li>
+            </ul>
+            
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span>Help</a></li>
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Options <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#"><span class="glyphicon glyphicon-phone"></span>My Account</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-globe"></span>Privacy</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-cog"></span>Settings</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-log-out"></span>Logout</a></li>
+                </ul>
+              </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+  </nav>
+  <div class="container-fluid">
+    <div class="row top">
+      <div class="col-sm-3">
+        <div class="profile-container">
+          <div class="intro-container">
+            <p class="info"><span class="home-profile-container"><img src="images/7.jpg" id="home-profile-image"></span><a href="#" id="profile-name">Dheerendra Singh</a><span><a id="edit-info" href="#">Edit</a></span></p><br/>      
+          </div>
+          <div class="information-container">
+            <ul>
+              <li><span class="glyphicon glyphicon-log-in"></span>Connect To IIT Delhi</li>
+              <li><span class="glyphicon glyphicon-log-in"></span>Connect To IIIT Hedrabad</li>
+              <li><span class="glyphicon glyphicon-log-in"></span>Connect To IIT Bombay</li>
+              <li><span class="glyphicon glyphicon-log-in"></span>Connect To Delhi Univerysiy</li>
+              <li><span class="glyphicon glyphicon-log-in"></span>Connect To GGSIPU</li>
+              <li><span class="glyphicon glyphicon-log-in"></span>Connect To NSIT</li>
+            </ul>
+          </div>
+          <div class="events">
+            <h4>EXPLORE</h4>
+            <ul>
+              <li><span class="glyphicon glyphicon-hand-right"></span>Events</li>
+              <li><span class="glyphicon glyphicon-hand-right"></span>Clan Groups</li>
+              <li><span class="glyphicon glyphicon-hand-right"></span>Saved</li>
+              <li><span class="glyphicon glyphicon-hand-right"></span>On This Day</li>
+              <li><span class="glyphicon glyphicon-hand-right"></span>Photos</li>
+              <li><span class="glyphicon glyphicon-hand-right"></span>Recommendations</li>
+
+            </ul>
+          </div>
+          
+          
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="post-content-container">
+          <div>
+
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs position-tab" role="tablist">
+              <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Status</a></li>
+              <li role="presentation"><a href="#upload-photo" aria-controls="profile" role="tab" data-toggle="tab">Photo</a></li>
+              
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="home">
+                <div class="status-text">
+                  <form>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="post-status" placeholder="What's On Your Mind?">
+                  </div>
+                  
+                  <button type="submit" class="btn btn-default">Post</button>
+                </form>
+                </div>
+                
+              </div>
+              <div role="tabpanel" class="tab-pane" id="upload-photo">
+                <h3><a href="#"><button class="btn btn-lg btn-info">Upload Photos</button></a></h3>
+              </div>
+              
+            </div>
+
+          </div>
+                    
+        </div>
+        <div class="post-container">
+          <div class="post">
+            <div class="post-info">
+              <img src="images/7.jpg">
+              <h4><a href="#">Dheerendra Singh</a></h4>
+              <div class="dropdown post-menu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="glyphicon glyphicon-menu-down"></span>
+                      </a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="#">Hide post</a></li>
+                        <li><a href="#">Unfollow Dheerendra</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Report post</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Delete post</a></li>
+                      </ul>
+                  </div>
+            </div>
+            <div class="post-text">
+              <h3> "Take up one idea. Make that one idea your life--think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success." --Swami Vivekananda</h3>
+            </div>
+            <div class="like-comment-share">
+              <ul>
+                <li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-comment"></span>Comment</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-share"></span>Share</a></li>
+              </ul>
+            </div>  
+          </div>
+          <div class="post">
+            <div class="post-info">
+              <img src="images/7.jpg">
+              <h4><a href="#">Dheerendra Singh</a></h4>
+              <div class="dropdown post-menu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="glyphicon glyphicon-menu-down"></span>
+                      </a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="#">Hide post</a></li>
+                        <li><a href="#">Unfollow Dheerendra</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Report post</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Delete post</a></li>
+                      </ul>
+                  </div>
+            </div>
+            <div class="post-text">
+              <h3> 
+                I note the obvious differences
+                in the human family.
+                Some of us are serious,
+                some thrive on comedy.
+
+                Some declare their lives are lived
+                as true profundity,
+                and others claim they really live
+                the real reality.
+
+                The variety of our skin tones
+                can confuse, bemuse, delight,
+                brown and pink and beige and purple,
+                tan and blue and white.
+
+                I've sailed upon the seven seas
+                and stopped in every land,
+                I've seen the wonders of the world
+                not yet one common man.
+
+                Source: http://www.familyfriendpoems.com/poem/human-family-by-maya-angelou  
+              </h3>
+            </div>
+            <div class="like-comment-share">
+              <ul>
+                <li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-comment"></span>Comment</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-share"></span>Share</a></li>
+              </ul>
+            </div>  
+          </div>
+          <div class="post">
+            <div class="post-info">
+              <img src="images/7.jpg">
+              <h4><a href="#">Dheerendra Singh</a> Shared <a href="#">Ashutosh Kumar's</a> Post</h4>
+              <div class="dropdown post-menu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="glyphicon glyphicon-menu-down"></span>
+                      </a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="#">Hide post</a></li>
+                        <li><a href="#">Unfollow Dheerendra</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Report post</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Delete post</a></li>
+                      </ul>
+                  </div>
+            </div>
+            <div class="post-photo">
+              <img src="images/1.jpg">
+            </div>
+            <div class="like-comment-share">
+              <ul>
+                <li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-comment"></span>Comment</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-share"></span>Share</a></li>
+              </ul>
+            </div>  
+          </div>
+          <div class="post">
+            <div class="post-info">
+              <img src="images/7.jpg">
+              <h4><a href="#">Dheerendra Singh</a> Shared <a href="#">Ashutosh Kumar's</a> Post</h4>
+              <div class="dropdown post-menu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="glyphicon glyphicon-menu-down"></span>
+                      </a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="#">Hide post</a></li>
+                        <li><a href="#">Unfollow Dheerendra</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Report post</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Delete post</a></li>
+                      </ul>
+                  </div>
+            </div>
+            <div class="post-photo">
+              <img src="images/2.jpg">
+            </div>
+            <div class="like-comment-share">
+              <ul>
+                <li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-comment"></span>Comment</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-share"></span>Share</a></li>
+              </ul>
+            </div>  
+          </div>
+          <div class="post">
+            <div class="post-info">
+              <img src="images/7.jpg">
+              <h4><a href="#">Dheerendra Singh</a> Shared <a href="#">Ashutosh Kumar's</a> Post</h4>
+              <div class="dropdown post-menu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="glyphicon glyphicon-menu-down"></span>
+                      </a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="#">Hide post</a></li>
+                        <li><a href="#">Unfollow Dheerendra</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Report post</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Delete post</a></li>
+                      </ul>
+                  </div>
+            </div>
+            <div class="post-photo">
+              <img src="images/3.jpg">
+            </div>
+            <div class="like-comment-share">
+              <ul>
+                <li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-comment"></span>Comment</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-share"></span>Share</a></li>
+              </ul>
+            </div>  
+          </div>
+          <div class="post">
+            <div class="post-info">
+              <img src="images/7.jpg">
+              <h4><a href="#">Dheerendra Singh</a> Shared <a href="#">Ashutosh Kumar's</a> Post</h4>
+            </div>
+            <div class="post-photo">
+              <img src="images/4.jpg">
+              <div class="dropdown post-menu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="glyphicon glyphicon-menu-down"></span>
+                      </a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="#">Hide post</a></li>
+                        <li><a href="#">Unfollow Dheerendra</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Report post</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Delete post</a></li>
+                      </ul>
+                  </div>
+            </div>
+            <div class="like-comment-share">
+              <ul>
+                <li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-comment"></span>Comment</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-share"></span>Share</a></li>
+              </ul>
+            </div>  
+          </div>
+          <div class="post">
+            <div class="post-info">
+              <img src="images/7.jpg">
+              <h4><a href="#">Dheerendra Singh</a> Shared <a href="#">Ashutosh Kumar's</a> Post</h4>
+              <div class="dropdown post-menu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="glyphicon glyphicon-menu-down"></span>
+                      </a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="#">Hide post</a></li>
+                        <li><a href="#">Unfollow Dheerendra</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Report post</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Delete post</a></li>
+                      </ul>
+                  </div>
+            </div>
+            <div class="post-photo">
+              <img src="images/5.jpg">
+            </div>
+            <div class="like-comment-share">
+              <ul>
+                <li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-comment"></span>Comment</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-share"></span>Share</a></li>
+              </ul>
+            </div>  
+          </div>
+          <div class="post">
+            <div class="post-info">
+              <img src="images/7.jpg">
+              <h4><a href="#">Dheerendra Singh</a> Shared <a href="#">Ashutosh Kumar's</a> Post</h4>
+              <div class="dropdown post-menu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="glyphicon glyphicon-menu-down"></span>
+                      </a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="#">Hide post</a></li>
+                        <li><a href="#">Unfollow Dheerendra</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Report post</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Delete post</a></li>
+                      </ul>
+                  </div>
+            </div>
+            <div class="post-photo">
+              <img src="images/7.jpg">
+            </div>
+            <div class="like-comment-share">
+              <ul>
+                <li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-comment"></span>Comment</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-share"></span>Share</a></li>
+              </ul>
+            </div>  
+          </div>          
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="side-container">
+          <h4>Trending</h4>
+          <ul>
+            <li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Top Trends</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-comment"></span>Politics</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-share"></span>Science and Technology</a></li>
+
+                <li><a href="#"><span class="glyphicon glyphicon-share"></span>Sports</a></li>
+
+                <li><a href="#"><span class="glyphicon glyphicon-share"></span>Entertainment</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    
+  
+
+    <div class="container-fluid footer-margin">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="footer">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Policy</a></li>
+              <li><a href="#">Map</a></li>
+              <li><a href="#">location</a></li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <script src="js/Jquery-version-1.12.4.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
