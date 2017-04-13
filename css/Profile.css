@@ -8,6 +8,25 @@
 body{
 	background-color: #68a1ff;
 }
+
+/* Modals css*/
+#myModal,#myModal1{
+	margin-top: 40px;
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .navbar{
 	border:0;
 	border-radius: 0;
@@ -332,14 +351,16 @@ span.clear {
 	max-width: 100%;
 	width: 100%;
 	height: auto;
-	border: 2px solid #fff;
+	
 	margin-bottom: 20px;
 	overflow-x: hidden;
+
 }
 
 .post-text{
 	padding: 10px;
 	color:#fff;
+	border: 2px solid #fff;
 }
 
 .post-info{

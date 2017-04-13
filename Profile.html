@@ -74,7 +74,89 @@
     		</div><!-- /.navbar-collapse -->
   		</div><!-- /.container-fluid -->
 	</nav>
+		<!--About Modal-->
+		
 
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">About</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+        	<div class="col-sm-12">
+        		<div class="profile-container">
+					<div class="intro-container">
+						<p class="info">Basic Info <span><a id="edit-info" href="#">Edit</a></span></p><br/>			<p class="margin intro1">There are two types of pains,one that hurts you and the other that change you</p>
+					</div>
+					<div class="information-container">
+						<ul>
+							<li><span class="glyphicon glyphicon-education"></span>Studies Computer Science &amp; Engineering (CSE) at G.B Pant Govt. Engineering College,IP University</li>
+							<li><span class="glyphicon glyphicon-education"></span>Went to G.B.S.S. School New Kondli, Delhi-96</li>
+							<li><span class="glyphicon glyphicon-home"></span>Lives in New Delhi, India</li>
+							<li><span class="glyphicon glyphicon-heart"></span>Single</li>
+							<li><span class="glyphicon glyphicon-map-marker"></span>From Bulandshahar, India</li>
+							<li><span class="glyphicon glyphicon-stats"></span>Followed by 16 people</li>
+						</ul>
+					</div>
+					<div class="featured-image-container">
+						<img src="images/1.jpg">
+						<img src="images/4.jpg">
+						<img src="images/7.jpg">
+						<img src="images/3.jpg">
+						<span class="clear"></span>
+					</div>
+					
+				</div>
+        		
+        	</div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Photos Modal-->
+	
+
+<!-- Modal -->
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Photos</h4>
+      </div>
+      <div class="modal-body">
+       	<div class="row">
+       		<div class="col-sm-12">
+	       		<div class="photos">
+							<h4 class="photos-heading">Photos</h4>
+							<img src="images/1.jpg">
+							<img src="images/2.jpg">
+							<img src="images/3.jpg">
+							<img src="images/4.jpg">
+							<img src="images/5.jpg">
+							<img src="images/6.jpg">
+							<span class="clear"></span>
+				</div>
+       		</div>
+       	</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="container-fluid top-zero">
 	<div class="row">
 		<div class="col-sm-9">
@@ -82,8 +164,8 @@
 					<img src="images/3.jpg" class="img-responsive">
 					<ul>
 						<li><a href="#">Timeline</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Photos</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#myModal">About</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#myModal1">Photos</a></li>
 						<li><a href="#">More</a></li>
 					</ul>
 					<div class="container-fluid">
