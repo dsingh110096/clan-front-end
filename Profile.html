@@ -17,83 +17,94 @@
 <body>
 
 
-	<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Campus Clan</a>
-    </div>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  		<div class="container-fluid">
+    		<!-- Brand and toggle get grouped for better mobile display -->
+    		<div class="navbar-header">
+	      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+	      		</button>
+	      		<a class="navbar-brand" href="#">Campus Clan</a>
+    		</div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+    		<!-- Collect the nav links, forms, and other content for toggling -->
+    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+    			<form class="navbar-form navbar-left">
+				    <div class="form-group">
+				    	<input type="text" class="form-control" id="search-bar" placeholder="Search...">
+				    </div>
+				    <a href="#"><span class="glyphicon search-icon glyphicon-search"></span></a>
+	        		<!-- <button type="submit" class="btn btn-default">Submit</button> -->
+      			</form>
+
+      			<ul class="nav navbar-nav">
+        			<li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>Home<span class="sr-only">(current)</span></a></li>
+			        <li><a href="#"><span class="glyphicon glyphicon-user"></span>Ashutosh</a></li>
+			        <li class="dropdown">
+          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-bell"></span>Notifications</span></a>
+				        <ul class="dropdown-menu">
+				            <li><a href="#">Action</a></li>
+				            <li><a href="#">Another action</a></li>
+				            <li><a href="#">Something else here</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">Separated link</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">One more separated link</a></li>
+			          	</ul>
+        			</li>
+      			</ul>
+      			
+      			<ul class="nav navbar-nav navbar-right">
+        			<li><a href="#"><span class="glyphicon glyphicon-question-sign"></span>Help</a></li>
+        			<li class="dropdown">
+          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Options <span class="caret"></span></a>
+				        <ul class="dropdown-menu">
+				        	<li><a href="#"><span class="glyphicon glyphicon-phone"></span>My Account</a></li>
+				        	<li><a href="#"><span class="glyphicon glyphicon-globe"></span>Privacy</a></li>
+				        	<li><a href="#"><span class="glyphicon glyphicon-cog"></span>Settings</a></li>
+				        	<li role="separator" class="divider"></li>
+				         	<li><a href="#"><span class="glyphicon glyphicon-log-out"></span>Logout</a></li>
+				        </ul>
+        			</li>
+      			</ul>
+    		</div><!-- /.navbar-collapse -->
+  		</div><!-- /.container-fluid -->
+	</nav>
 
 <div class="container-fluid top-zero">
-		<div class="row">
-			<div class="col-sm-9">
-				<div class="cover-container">
+	<div class="row">
+		<div class="col-sm-9">
+			<div class="cover-container">
 					<img src="images/3.jpg" class="img-responsive">
 					<ul>
-						<li>Timeline</li>
-						<li>About</li>
-						<li>Photos</li>
-						<li>More</li>
+						<li><a href="#">Timeline</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Photos</a></li>
+						<li><a href="#">More</a></li>
 					</ul>
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-sm-3">
-							<div id="profile-image">
-						<img src="images/7.jpg" id="profile-container-image">
-					</div>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-sm-3">
+								<div id="profile-image">
+									<img src="images/7.jpg" id="profile-container-image">
+									<a href="#" id="edit-pic"><span class="glyphicon glyphicon-camera"></span>Edit</a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="name-container">
+									<h4>Dheerendra Singh</h4>
+									<h5>(The God Of Courage)</h5>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>	
-				</div>
 			</div>
-			<div class="col-sm-3">
+		</div>
+			<div class="col-sm-3 above">
 				<div class="side-container">
 					<div class="clan-group">
 						<h3 id="group-heading">Clan Groups</h3>
@@ -106,13 +117,13 @@
 						</ul>
 					</div>
 					<div class="link-to-features">
-						<div class="feature-circle" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="This let you go in Clan class room.">
+						<div class="feature-circle">
 							<h5>Clan Class-Room</h5>
 						</div>
-						<div class="feature-circle" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="This let you go in Clan connect.">
+						<div class="feature-circle">
 							<h5>Clan Connect</h5>
 						</div>
-						<div class="feature-circle" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="This let you go in Faculty's room.">
+						<div class="feature-circle">
 							<h5>Faculty's Room</h5>
 						</div>
 						
@@ -124,8 +135,7 @@
 			<div class="col-sm-3">
 				<div class="profile-container">
 					<div class="intro-container">
-						<p id="intro">Intro</p><br/>
-						<p class="margin intro1">There are two types of pains,one that hurts you and the other that change you</p>
+						<p class="info">Basic Info <span><a id="edit-info" href="#">Edit</a></span></p><br/>			<p class="margin intro1">There are two types of pains,one that hurts you and the other that change you</p>
 					</div>
 					<div class="information-container">
 						<ul>
@@ -160,50 +170,63 @@
 				<div class="post-content-container">
 					<div>
 
-  <!-- Nav tabs -->
-  <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Status</a></li>
-    <li role="presentation"><a href="#upload-photo" aria-controls="profile" role="tab" data-toggle="tab">Photo</a></li>
-    
-  </ul>
+					  <!-- Nav tabs -->
+					  <ul class="nav nav-tabs position-tab" role="tablist">
+					    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Status</a></li>
+					    <li role="presentation"><a href="#upload-photo" aria-controls="profile" role="tab" data-toggle="tab">Photo</a></li>
+					    
+					  </ul>
 
-  <!-- Tab panes -->
-  <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="home">
-    	<div class="status-text">
-    		<form>
-			  <div class="form-group">
-			    <input type="email" class="form-control" id="post-status" placeholder="What's On Your Mind?">
-			  </div>
-			  
-			  <button type="submit" class="btn btn-default">Post</button>
-			</form>
-    	</div>
-    	
-    </div>
-    <div role="tabpanel" class="tab-pane" id="upload-photo">
-    	<h3>Upload Photos</h3>
-    </div>
-    
-  </div>
+					  <!-- Tab panes -->
+					  <div class="tab-content">
+					    <div role="tabpanel" class="tab-pane active" id="home">
+					    	<div class="status-text">
+					    		<form>
+								  <div class="form-group">
+								    <input type="email" class="form-control" id="post-status" placeholder="What's On Your Mind?">
+								  </div>
+								  
+								  <button type="submit" class="btn btn-default">Post</button>
+								</form>
+					    	</div>
+					    	
+					    </div>
+					    <div role="tabpanel" class="tab-pane" id="upload-photo">
+					    	<h3><a href="#"><button class="btn btn-lg btn-info">Upload Photos</button></a></h3>
+					    </div>
+					    
+					  </div>
 
-</div>
-					
+					</div>
+										
 				</div>
 				<div class="post-container">
 					<div class="post">
 						<div class="post-info">
 							<img src="images/7.jpg">
 							<h4><a href="#">Dheerendra Singh</a></h4>
+							<div class="dropdown post-menu">
+		          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+		          					<span class="glyphicon glyphicon-menu-down"></span>
+		          				</a>
+						        <ul class="dropdown-menu dropdown-menu-right">
+						            <li><a href="#">Hide post</a></li>
+						            <li><a href="#">Unfollow Dheerendra</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">Report post</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">Delete post</a></li>
+					          	</ul>
+		        			</div>
 						</div>
 						<div class="post-text">
 							<h3> "Take up one idea. Make that one idea your life--think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success." --Swami Vivekananda</h3>
 						</div>
 						<div class="like-comment-share">
 							<ul>
-								<li><span class="glyphicon glyphicon-thumbs-up"></span>Like</li>
-								<li><span class="glyphicon glyphicon-comment"></span>Comment</li>
-								<li><span class="glyphicon glyphicon-share"></span>Share</li>
+								<li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-comment"></span>Comment</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-share"></span>Share</a></li>
 							</ul>
 						</div>	
 					</div>
@@ -211,6 +234,19 @@
 						<div class="post-info">
 							<img src="images/7.jpg">
 							<h4><a href="#">Dheerendra Singh</a></h4>
+							<div class="dropdown post-menu">
+		          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+		          					<span class="glyphicon glyphicon-menu-down"></span>
+		          				</a>
+						        <ul class="dropdown-menu dropdown-menu-right">
+						            <li><a href="#">Hide post</a></li>
+						            <li><a href="#">Unfollow Dheerendra</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">Report post</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">Delete post</a></li>
+					          	</ul>
+		        			</div>
 						</div>
 						<div class="post-text">
 							<h3> 
@@ -239,9 +275,9 @@
 						</div>
 						<div class="like-comment-share">
 							<ul>
-								<li><span class="glyphicon glyphicon-thumbs-up"></span>Like</li>
-								<li><span class="glyphicon glyphicon-comment"></span>Comment</li>
-								<li><span class="glyphicon glyphicon-share"></span>Share</li>
+								<li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-comment"></span>Comment</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-share"></span>Share</a></li>
 							</ul>
 						</div>	
 					</div>
@@ -249,15 +285,28 @@
 						<div class="post-info">
 							<img src="images/7.jpg">
 							<h4><a href="#">Dheerendra Singh</a> Shared <a href="#">Ashutosh Kumar's</a> Post</h4>
+							<div class="dropdown post-menu">
+		          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+		          					<span class="glyphicon glyphicon-menu-down"></span>
+		          				</a>
+						        <ul class="dropdown-menu dropdown-menu-right">
+						            <li><a href="#">Hide post</a></li>
+						            <li><a href="#">Unfollow Dheerendra</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">Report post</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">Delete post</a></li>
+					          	</ul>
+		        			</div>
 						</div>
 						<div class="post-photo">
 							<img src="images/1.jpg">
 						</div>
 						<div class="like-comment-share">
 							<ul>
-								<li><span class="glyphicon glyphicon-thumbs-up"></span>Like</li>
-								<li><span class="glyphicon glyphicon-comment"></span>Comment</li>
-								<li><span class="glyphicon glyphicon-share"></span>Share</li>
+								<li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-comment"></span>Comment</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-share"></span>Share</a></li>
 							</ul>
 						</div>	
 					</div>
@@ -265,15 +314,28 @@
 						<div class="post-info">
 							<img src="images/7.jpg">
 							<h4><a href="#">Dheerendra Singh</a> Shared <a href="#">Ashutosh Kumar's</a> Post</h4>
+							<div class="dropdown post-menu">
+		          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+		          					<span class="glyphicon glyphicon-menu-down"></span>
+		          				</a>
+						        <ul class="dropdown-menu dropdown-menu-right">
+						            <li><a href="#">Hide post</a></li>
+						            <li><a href="#">Unfollow Dheerendra</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">Report post</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">Delete post</a></li>
+					          	</ul>
+		        			</div>
 						</div>
 						<div class="post-photo">
 							<img src="images/2.jpg">
 						</div>
 						<div class="like-comment-share">
 							<ul>
-								<li><span class="glyphicon glyphicon-thumbs-up"></span>Like</li>
-								<li><span class="glyphicon glyphicon-comment"></span>Comment</li>
-								<li><span class="glyphicon glyphicon-share"></span>Share</li>
+								<li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-comment"></span>Comment</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-share"></span>Share</a></li>
 							</ul>
 						</div>	
 					</div>
@@ -281,15 +343,28 @@
 						<div class="post-info">
 							<img src="images/7.jpg">
 							<h4><a href="#">Dheerendra Singh</a> Shared <a href="#">Ashutosh Kumar's</a> Post</h4>
+							<div class="dropdown post-menu">
+		          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+		          					<span class="glyphicon glyphicon-menu-down"></span>
+		          				</a>
+						        <ul class="dropdown-menu dropdown-menu-right">
+						            <li><a href="#">Hide post</a></li>
+						            <li><a href="#">Unfollow Dheerendra</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">Report post</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">Delete post</a></li>
+					          	</ul>
+		        			</div>
 						</div>
 						<div class="post-photo">
 							<img src="images/3.jpg">
 						</div>
 						<div class="like-comment-share">
 							<ul>
-								<li><span class="glyphicon glyphicon-thumbs-up"></span>Like</li>
-								<li><span class="glyphicon glyphicon-comment"></span>Comment</li>
-								<li><span class="glyphicon glyphicon-share"></span>Share</li>
+								<li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-comment"></span>Comment</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-share"></span>Share</a></li>
 							</ul>
 						</div>	
 					</div>
@@ -300,12 +375,25 @@
 						</div>
 						<div class="post-photo">
 							<img src="images/4.jpg">
+							<div class="dropdown post-menu">
+		          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+		          					<span class="glyphicon glyphicon-menu-down"></span>
+		          				</a>
+						        <ul class="dropdown-menu dropdown-menu-right">
+						            <li><a href="#">Hide post</a></li>
+						            <li><a href="#">Unfollow Dheerendra</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">Report post</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">Delete post</a></li>
+					          	</ul>
+		        			</div>
 						</div>
 						<div class="like-comment-share">
 							<ul>
-								<li><span class="glyphicon glyphicon-thumbs-up"></span>Like</li>
-								<li><span class="glyphicon glyphicon-comment"></span>Comment</li>
-								<li><span class="glyphicon glyphicon-share"></span>Share</li>
+								<li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-comment"></span>Comment</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-share"></span>Share</a></li>
 							</ul>
 						</div>	
 					</div>
@@ -313,15 +401,28 @@
 						<div class="post-info">
 							<img src="images/7.jpg">
 							<h4><a href="#">Dheerendra Singh</a> Shared <a href="#">Ashutosh Kumar's</a> Post</h4>
+							<div class="dropdown post-menu">
+		          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+		          					<span class="glyphicon glyphicon-menu-down"></span>
+		          				</a>
+						        <ul class="dropdown-menu dropdown-menu-right">
+						            <li><a href="#">Hide post</a></li>
+						            <li><a href="#">Unfollow Dheerendra</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">Report post</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">Delete post</a></li>
+					          	</ul>
+		        			</div>
 						</div>
 						<div class="post-photo">
 							<img src="images/5.jpg">
 						</div>
 						<div class="like-comment-share">
 							<ul>
-								<li><span class="glyphicon glyphicon-thumbs-up"></span>Like</li>
-								<li><span class="glyphicon glyphicon-comment"></span>Comment</li>
-								<li><span class="glyphicon glyphicon-share"></span>Share</li>
+								<li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-comment"></span>Comment</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-share"></span>Share</a></li>
 							</ul>
 						</div>	
 					</div>
@@ -329,15 +430,28 @@
 						<div class="post-info">
 							<img src="images/7.jpg">
 							<h4><a href="#">Dheerendra Singh</a> Shared <a href="#">Ashutosh Kumar's</a> Post</h4>
+							<div class="dropdown post-menu">
+		          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+		          					<span class="glyphicon glyphicon-menu-down"></span>
+		          				</a>
+						        <ul class="dropdown-menu dropdown-menu-right">
+						            <li><a href="#">Hide post</a></li>
+						            <li><a href="#">Unfollow Dheerendra</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">Report post</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">Delete post</a></li>
+					          	</ul>
+		        			</div>
 						</div>
 						<div class="post-photo">
 							<img src="images/7.jpg">
 						</div>
 						<div class="like-comment-share">
 							<ul>
-								<li><span class="glyphicon glyphicon-thumbs-up"></span>Like</li>
-								<li><span class="glyphicon glyphicon-comment"></span>Comment</li>
-								<li><span class="glyphicon glyphicon-share"></span>Share</li>
+								<li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-comment"></span>Comment</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-share"></span>Share</a></li>
 							</ul>
 						</div>	
 					</div>					
