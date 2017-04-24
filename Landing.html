@@ -14,6 +14,26 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 	<title>Landing|Page</title>
+  <script src="js/Jquery-version-1.12.4.js"></script>
+    <script src="js/typed.min.js"></script>
+  <script type="text/javascript">
+      $( document ).ready(function() {
+          $(function(){
+            $(".text-typed").typed({
+              strings: [
+              "Welcome To Campus Clan.^1000",
+              "Explore The Education In New Way.^1000",
+              "It's Free And Always Will Be."
+              ],
+              typeSpeed: 100,
+              backDelay: 500,
+              contentType: 'html',
+              loop: true
+            })
+      })
+      });
+      
+  </script>
 </head>
 <body class="landing-page">
     <div class="container-fluid" id="landing-margin">
@@ -36,13 +56,15 @@
           <div class="col-sm-12">
             <div class="homepage">
                 <div class="homepage-video visible-desktop" id="homepage-video-container">
-                <video src="media/Noodle - Make Better Education Decisions - Noodle.MP4" poster="images/video-poster.jpg" preload="auto" autoplay="autoplay" loop="loop">
-                </video>
-                <div class="overlay">
-                    <span class="tagline">Welcome To Campus Clan.</span>
-                    <h3>Lets Connect !</h3>
-                    <button type="button" class="btn btn-info btn-lg">Get Started</button>
-                </div>
+                  <video src="media/Noodle - Make Better Education Decisions - Noodle.MP4" poster="images/video-poster.jpg" preload="auto" autoplay="autoplay" loop="loop">
+                  </video>
+                  <div class="overlay">
+                      <span class="tagline text-typed"></span>
+                      <h3>Lets Connect !</h3>
+                      <!-- <button type="button" class="btn btn-info btn-lg">Get Started</button> -->
+                  </div>
+
+                
                 </div><!-- .homepage-video -->
 
                 <div class="homepage-mobile hidden-desktop">
@@ -84,7 +106,8 @@
     </div>
 
 
-  <script src="js/Jquery-version-1.12.4.js"></script>
+  
   <script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>

@@ -1,4 +1,56 @@
+.typed-cursor{
+	visibility: hidden;
+}
 
+.text-typed:after {
+  visibility: visible;
+  content: '';
+  background-color: #fff;
+  display: inline-block;
+  position: relative;
+  width: 0.05em;
+  height: 0.8em;
+  color: #fff;
+  top: 5px;
+  margin-left: 0;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+ 			
+}
+@-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+
+        .typed-fade-out{
+            opacity: 0;
+            animation: 0;
+            transition: opacity .25s;
+        }Wx`
 .landing-page{
 	overflow-x:hidden;
 }
@@ -73,6 +125,7 @@ video{
     
     color: #fff;
     font-size: 64px;
+
     
 }
 .homepage .homepage-video .overlay h3{
@@ -104,7 +157,7 @@ video{
     color: #fff;
     font-size: 48px;
     line-height: 1.2;
-    margin: 0 auto;
+    
 }
 
 .hidden-desktop{
@@ -119,7 +172,8 @@ video{
 		.hidden-desktop {
     		display: inherit!important;
 		}
-			
-}
+		
 
+	
+}
 
